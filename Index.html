@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bradford Home Services offers plumbing, yard work, tree removal, pressure washing, and more. No job too small!">
+    <meta name="keywords" content="Home services, plumbing, yard work, tree removal, pressure washing, general labor">
+    <meta name="author" content="Bradford Home Services">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Bradford Home Services</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <h1>Bradford Home Services</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Reliable Home Services You Can Trust</h2>
+            <p>From plumbing to yard work, tree removal, and more – no job is too small!</p>
+            <a href="#contact" class="btn">Get a Free Quote</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Plumbing</h3>
+                    <p>Quick and reliable plumbing services for any issue.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Yard Work</h3>
+                    <p>Lawn mowing, trimming, and landscaping to make your yard shine.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Tree Removal</h3>
+                    <p>Safe and professional tree cutting and removal services.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Pressure Washing</h3>
+                    <p>Restore surfaces like driveways, decks, and siding to look new.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a dedicated local team committed to helping you maintain your home. Our goal is fast, reliable, and affordable service for every customer.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Call us at <strong>1‑678‑616‑6232</strong> or email <strong>info@bradfordhomeservices.com</strong></p>
+            <a href="tel:16786166232" class="btn">Call Now</a>
+
+            <h3>Request a Free Quote</h3>
+            <form action="https://formspree.io/f/mqedaewb" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message / Service Request:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Bradford Home Services. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
